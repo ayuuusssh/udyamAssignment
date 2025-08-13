@@ -1,0 +1,283 @@
+{
+  "source": "https://udyamregistration.gov.in/UdyamRegistration.aspx",
+  "createdAt": "2025-08-13T14:03:06.170Z",
+  "steps": [
+    {
+      "id": 1,
+      "title": "Aadhaar Verification",
+      "fields": [
+        {
+          "name": "aadhaar",
+          "id": "aadhaar",
+          "label": "Aadhaar Number",
+          "type": "text",
+          "placeholder": "Enter 12-digit Aadhaar",
+          "required": true,
+          "validation": {
+            "pattern": "^\\d{12}$",
+            "message": "Aadhaar must be 12 digits"
+          }
+        },
+        {
+          "name": "otp",
+          "id": "otp",
+          "label": "OTP",
+          "type": "text",
+          "placeholder": "Enter 6-digit OTP",
+          "required": true,
+          "validation": {
+            "pattern": "^\\d{6}$",
+            "message": "OTP must be 6 digits"
+          }
+        }
+      ],
+      "rawSample": [
+        {
+          "tag": "button",
+          "type": "button",
+          "id": null,
+          "name": null,
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "id": "__EVENTTARGET",
+          "name": "__EVENTTARGET",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "id": "__EVENTARGUMENT",
+          "name": "__EVENTARGUMENT",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "id": "__VIEWSTATE",
+          "name": "__VIEWSTATE",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "id": "__VIEWSTATEGENERATOR",
+          "name": "__VIEWSTATEGENERATOR",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "id": "__VIEWSTATEENCRYPTED",
+          "name": "__VIEWSTATEENCRYPTED",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "id": "__EVENTVALIDATION",
+          "name": "__EVENTVALIDATION",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "ctl00_ContentPlaceHolder1_txtadharno",
+          "name": "ctl00$ContentPlaceHolder1$txtadharno",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "ctl00_ContentPlaceHolder1_txtownername",
+          "name": "ctl00$ContentPlaceHolder1$txtownername",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "id": "ctl00_ContentPlaceHolder1_chkDecarationA",
+          "name": "ctl00$ContentPlaceHolder1$chkDecarationA",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "submit",
+          "id": "ctl00_ContentPlaceHolder1_btnValidateAadhaar",
+          "name": "ctl00$ContentPlaceHolder1$btnValidateAadhaar",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "button",
+          "type": "button",
+          "id": null,
+          "name": null,
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "button",
+          "type": "text",
+          "id": "speak",
+          "name": "speak",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "button",
+          "type": "text",
+          "id": "btn-s9",
+          "name": "btn-s9",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "button",
+          "type": "text",
+          "id": "btn-s13",
+          "name": "btn-s13",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "button",
+          "type": "text",
+          "id": "btn-s12",
+          "name": "btn-s12",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "button",
+          "type": "text",
+          "id": "btn-s10",
+          "name": "btn-s10",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "button",
+          "type": "text",
+          "id": "btn-df",
+          "name": "btn-df",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "button",
+          "type": "text",
+          "id": "btn-s11",
+          "name": "btn-s11",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "button",
+          "type": "text",
+          "id": "btn-cursor",
+          "name": "btn-cursor",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "button",
+          "type": "text",
+          "id": "dark-btn",
+          "name": "dark-btn",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "id": "checkbox",
+          "name": "checkbox",
+          "label": "",
+          "required": false
+        },
+        {
+          "tag": "button",
+          "type": "text",
+          "id": "btn-invert",
+          "name": "btn-invert",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "button",
+          "type": "text",
+          "id": "reset-all",
+          "name": "reset-all",
+          "label": null,
+          "required": false
+        },
+        {
+          "tag": "button",
+          "type": "text",
+          "id": "uw-widget-custom-trigger",
+          "name": "uw-widget-custom-trigger",
+          "label": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "PAN & Address",
+      "fields": [
+        {
+          "name": "pan",
+          "id": "pan",
+          "label": "PAN Number",
+          "type": "text",
+          "placeholder": "ABCDE1234F",
+          "required": true,
+          "validation": {
+            "pattern": "^[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$",
+            "flags": "i",
+            "message": "Invalid PAN format"
+          }
+        },
+        {
+          "name": "pincode",
+          "id": "pincode",
+          "label": "PIN Code",
+          "type": "pincode",
+          "placeholder": "6-digit PIN",
+          "required": true,
+          "validation": {
+            "pattern": "^\\d{6}$",
+            "message": "Enter a valid 6-digit PIN"
+          }
+        },
+        {
+          "name": "city",
+          "id": "city",
+          "label": "City",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "state",
+          "id": "state",
+          "label": "State",
+          "type": "text",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
